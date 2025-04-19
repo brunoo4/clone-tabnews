@@ -1,5 +1,5 @@
 function Home() {
-    return <h1>Clone Tab News - Teste autoreload 1</h1>
+    return <h1>Clone Tab News - Deploy 1</h1>
 }
 
 export default Home;
