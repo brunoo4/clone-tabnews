@@ -8,10 +8,14 @@ function Home() {
     setCount(count + 1);
   }
 
+  function teste() {
+    console.log("erro");
+  }
+
   return (
     <div>
       <h1>Click the button to count {count}</h1>
-      <MyButton count={count}onClick={handleClick}/>
+      <MyButton count={count} onClick={handleClick} />
     </div>
   );
 }
